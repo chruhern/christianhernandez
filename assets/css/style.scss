@@ -2,6 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+@font-face {
+    font-family: Helvetica;
+    src: url();
+}
+
 .main-content {
     h1{
         color: #ff0000;
