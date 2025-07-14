@@ -1,4 +1,24 @@
-remote_theme: pages-themes/minimal@v0.2.0
-description: Christian's Blog 
-plugins:
-- jekyll-remote-theme 
+title: Christian Hernandez    
+description: Portfolio and visual research archive
+baseurl: ""         # leave blank if deploying to root
+url: https://chruhern.github.io/christianhernandez/  # your domain or GitHub Pages URL
+
+markdown: kramdown
+
+permalink: pretty   # clean URLs like /projects/
+
+# Optional: navigation links
+nav:
+  - title: WORK
+    url: /WORK/
+  - title: READ
+    url: /READ/
+  - title: PHOTO
+    url: /PHOTO/
+  - title: VIDEO
+    url: /VIDEO/
+
+# Build settings
+exclude:
+  - README.md
+
