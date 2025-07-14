@@ -1,40 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Christian Hernandez</title>
-  <link rel="stylesheet" href= "assets/css/style.css"/>
+  <meta charset="UTF-8">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  <div class="container">
-    <aside class="sidebar">
-      <div class="name">Christian Hernandez</div>
-      <nav>
-        <ul>
-          <li>WORK</li>
-          <li>READ</li>
-          <li>PHOTO</li>
-          <li>VIDEO</li>
-        </ul>
-      </nav>
-      <div> 
-        <p> under construction</p>
-      </div>
-      <div class="contact">hernandezchristian2002@gmail.com</div>
-    </aside>
+  <div class="sidebar">
+    <h2>CHRISTIAN HERNANDEZ</h2>
+    <nav>
+      <ul>
+        <li><a href="#">WORK</a></li>
+        <li><a href="#">READ</a></li>
+        <li><a href="#">PHOTO</a></li>
+        <li><a href="#">VIDEO</a></li>
+      </ul>
+    </nav>
+    <p>e. hernandezchristian2002@gmail.com</p>
+  </div>
 
-    <main class="main">
-      <img src="images/serape.webp" alt="Main Visual" />
-      <footer>
-        <div>CHRISTIAN HERNANDEZ © 2025</div>
-        <div class="socials">
-          <a href="#">Email</a> —
-          <a href="#">Instagram</a> —
-          <a href="#">LinkedIn</a>
-        </div>
-      </footer>
-    </main>
+  <div class="main">
+    {{ content }}
+    <footer>
+      <p>CHRISTIAN HERNANDEZ © 2025</p>
+      <p><a href="#">Email</a> — <a href="#">Instagram</a> — <a href="#">LinkedIn</a></p>
+    </footer>
   </div>
 </body>
 </html>
