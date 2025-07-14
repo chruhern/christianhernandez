@@ -3,4 +3,4 @@ layout: default
 title: Home
 ---
 
-<img src="/images/serape.webpd" alt="serape" class="homepage-image">
+<img src="/images/serape.webp" alt="serape" class="homepage-image">
