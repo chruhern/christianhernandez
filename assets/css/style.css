@@ -28,7 +28,7 @@ body {
 .sidebar u1 {
   list-style: none;
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .sidebar li {
@@ -61,7 +61,7 @@ a {
 
 .footer {
   padding: 20px;
-  font-size: 12px;
+  font-size: 10px;
   color: #444;
   text-align: center;
 }
