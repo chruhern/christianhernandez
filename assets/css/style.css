@@ -29,7 +29,7 @@ body {
   margin-bottom: 20px;
 }
 
-a {
+.navbar a {
   text-decoration: none;
   margin: 5px 0;
   cursor: pointer;
