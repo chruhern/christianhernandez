@@ -76,7 +76,9 @@ a {
 /* WORK CSS*/
 
 .main-work {
-  width: 100%;
+  width:80%;
   max-width: none;
-  
+  min-height: 100vh;
+  overflow: visible;
+
 }
