@@ -28,6 +28,7 @@ body {
 .sidebar u1 {
   list-style: none;
   margin-bottom: 20px;
+  font-size: 12px;
 }
 
 .sidebar li {
@@ -42,7 +43,7 @@ a {
 
 .mail-link {
   margin-top: auto;
-  font-size: 12px;
+  font-size: 10px;
   color: #667
 }
 .main {
