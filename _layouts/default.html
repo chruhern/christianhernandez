@@ -6,25 +6,11 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  <div class="sidebar">
-    <h2>CHRISTIAN HERNANDEZ</h2>
-    <nav>
-      <ul  style="list-style-type:none;">
-        <li>WORK</li>
-        <li>READ</li>
-        <li>PHOTO</li>
-        <li>VIDEO</li>
-      </ul>
-    </nav>
-    <p>hernandezchristian2002@gmail.com</p>
-  </div>
+{% include navbar.html %}
 
   <div class="main">
     {{ content }} 
-    <footer>
-      <p>CHRISTIAN HERNANDEZ © 2025</p>
-      <p><a href="#">Email</a> — <a href="#">Instagram</a> — <a href="#">LinkedIn</a></p>
-    </footer>
+    {% include footer.html %}
   </div>
 </body>
 </html>
