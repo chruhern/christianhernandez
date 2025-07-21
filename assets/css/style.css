@@ -77,8 +77,5 @@ a {
 
 .main-work {
   width:80%;
-  max-width: none;
-  min-height: 100vh;
-  overflow: visible;
-
+  height: 100%;
 }
