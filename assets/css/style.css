@@ -36,6 +36,10 @@ body {
   color: #333;
 }
 
+.sidebar a {
+  text-decoration: none;
+}
+
 .mail-link {
   margin-top: auto;
   font-size: 12px;
