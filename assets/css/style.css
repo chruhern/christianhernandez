@@ -10,7 +10,7 @@ body {
   background: white;
 }
 
-.navbar {
+.container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,19 +24,19 @@ body {
   justify-content: flex-start;
   font-size: 13px;
 }
-.navbar nav {
+
+.sidebar u1 {
   list-style: none;
   margin-bottom: 20px;
 }
 
-.navbar a {
-  text-decoration: none;
+.sidebar li {
   margin: 5px 0;
   cursor: pointer;
   color: #333;
 }
 
-.mail-link{
+.mail-link {
   margin-top: auto;
   font-size: 12px;
   color: #667
