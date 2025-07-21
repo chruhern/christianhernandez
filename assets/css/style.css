@@ -36,6 +36,11 @@ body {
   color: #333;
 }
 
+.navbar a:link {
+  text-decoration: none;
+
+}
+
 .mail-link{
   margin-top: auto;
   font-size: 12px;
