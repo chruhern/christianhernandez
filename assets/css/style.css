@@ -6,7 +6,7 @@ body {
   background: white;
 }
 
-.sidebar {
+.navbar {
   width: 20%;
   padding: 40px 20px;
   box-sizing: border-box;
@@ -17,13 +17,13 @@ body {
   justify-content: space-between;
 }
 
-.sidebar nav {
+.navbar nav {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.sidebar a {
+.navbar a {
   text-decoration: none;
   color: inherit;
 }
