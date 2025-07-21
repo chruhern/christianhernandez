@@ -3,4 +3,4 @@ layout: default
 title: Home
 ---
 
-![serape](/assets/images/serape.webp)
+<img src="/assets/images/serap.webp" alt="serape">
