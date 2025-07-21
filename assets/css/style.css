@@ -29,16 +29,11 @@ body {
   margin-bottom: 20px;
 }
 
-.navbar a {
+a {
   text-decoration: none;
   margin: 5px 0;
   cursor: pointer;
   color: #333;
-}
-
-.navbar a:link {
-  text-decoration: none;
-
 }
 
 .mail-link{
