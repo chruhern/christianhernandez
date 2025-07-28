@@ -1,0 +1,13 @@
+<div class="grid-container">
+    {% for page in site.pages %}
+     <div class="grid-item">
+        <a href="{{ page.url }}">
+            <img src="{{ page.image }}" alt="{{page.title}}">
+            <h3>{{ page.title }}</h3>
+            {% if page.date and page.location %}
+             <p class="meta">{{ page.date | date: "%B %d, %Y" }} - {{ page.location }}</p>
+            {% endif %}
+        </a>
+     </div>
+    {% endfor %}
+</div>
