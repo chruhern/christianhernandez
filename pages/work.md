@@ -1,5 +1,5 @@
 ---
 layout: work
-title: WORK
+title: Work
 ---
 

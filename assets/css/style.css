@@ -82,3 +82,39 @@ a {
   margin: 0;
   overflow: visible;
 }
+
+/* READ CSS */ 
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.grid-item {
+  text-align: left;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.grid-item h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 8px 0 4px;
+}
+
+.meta {
+  font-size: 13px;
+  color: #666;
+  font-style: italic;
+}
