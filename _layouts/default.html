@@ -11,19 +11,19 @@
 {% include navbar.html %}
   <div class="main">
 
-    {{ content }} 
-
     <div class="slideshow-container"> 
 
       <div class="slide-fade"> 
-        <img src="{{ '/assets/images/Serape.webp' | relative_url }}" alt="Serape"> 
+        <img src="assets/images/Serape.webp" alt="Serape"> 
       </div>
 
       <div class="slideshow-container"> 
-        <img src="{{ '/assets/images/ChristianGradPhoto.tif' | relative_url }}" alt="ChristianGradPhoto">
+        <img src="assets/images/ChristianGradPhoto.jpg" alt="ChristianGradPhoto">
       </div>
 
     </div>
+
+    {{ content }} 
 
     {% include footer.html %}
 
