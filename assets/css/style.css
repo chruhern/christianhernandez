@@ -78,9 +78,9 @@ a {
 }
 
 .slide img {
-  width: 100%;
+  width: 50%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .slide:nth-child(1) {
