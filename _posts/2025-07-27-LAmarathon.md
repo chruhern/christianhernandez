@@ -6,4 +6,4 @@ location: Los Angeles, CA
 image: /assets/images/serape.webp
 ---
 
-under construction
+under construction.
