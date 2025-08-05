@@ -52,6 +52,7 @@ a {
 
 /* MAIN-PAGE CSS */
 .main {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -59,19 +60,11 @@ a {
   height: 900px;
 }
 
-
-.main img { 
-  max-width: 80%;
-  height: auto;
-  object-fit: cover;
-  object-position: center;
-}
-
 .slideshow-container {
   position: relative;
   width: 100%;
   max-width: 100%;
-  height: auto;
+  height: 100%;
   margin: auto;
   overflow: hidden;
 }
