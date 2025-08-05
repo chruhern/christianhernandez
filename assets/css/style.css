@@ -126,7 +126,6 @@ h2 {
 .slideshow-container {
   position: relative;
   width: 100%;
-  max-width: 800px;
   height: 500px;
   margin: auto;
   overflow: hidden;
