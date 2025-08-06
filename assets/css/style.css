@@ -78,6 +78,7 @@ a {
 }
 
 .slide img {
+  margin-top: 100px;
   width: 50%;
   height: 50%;
   object-fit: contain;
