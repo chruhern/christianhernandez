@@ -1,53 +1,39 @@
-
-/* BODY CSS */
-body {
-  font-family: sans-serif;
-  font-weight: lighter;
-  font-style: oblique;
+body{
   display: flex;
-  background: white;
+  border: 2px solid red;
 }
 
-/* SIDEBAR CSS */
-.sidebar-container {
-  margin-top: 120px;
-  margin-left: 100px;
-  min-height: 100vh;
+.sidebar{
   display: flex;
   flex-direction: column;
-  border: 8px solid black;
+  font-family: Helvetica;
+  border: 2px solid blue;
 }
 
-.sidebar {
-  width: 220px;
-  padding: 30px 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  font-size: 13px;
-}
 
-.sidebar u1 {
-  list-style: none;
-  margin-bottom: 20px;
-  font-size: 10px;
-}
-
-.sidebar li {
-  margin: 5px 0;
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-  color: #444;
+.menu{
+  font-size: 12px;
+  border: 2px solid green;
 }
 
 .mail-link {
-  margin-top: auto;
   font-size: 10px;
   color: #667
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MAIN-PAGE CSS */
 .main {
