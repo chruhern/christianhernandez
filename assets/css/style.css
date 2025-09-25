@@ -9,14 +9,14 @@ a{text-decoration: none; color: #444}
   flex-direction: column;
 
   position: relative;
-  margin-left:auto;
+  margin-left:120px;
 
   font-family: Helvetica;
   border: 2px solid blue;
 }
 
 
-.menu{
+.sidebar-menu{
   list-style: none; 
   font-size: 12px;
 
