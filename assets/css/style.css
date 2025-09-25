@@ -1,24 +1,36 @@
 body{
-  display: flex;
+  display: flex; 
   border: 2px solid red;
 }
+a{text-decoration: none; color: #444}
 
 .sidebar{
   display: flex;
   flex-direction: column;
+
+  position: relative;
+  margin-left:auto;
+
   font-family: Helvetica;
   border: 2px solid blue;
 }
 
 
 .menu{
+  list-style: none; 
   font-size: 12px;
+
+  position: inherit;
+  top:120px;
   border: 2px solid green;
 }
 
 .mail-link {
   font-size: 10px;
-  color: #667
+  color: #667;
+
+  position: inherit;
+  top: 120px;
 }
 
 
