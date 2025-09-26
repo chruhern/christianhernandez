@@ -85,12 +85,19 @@ a{text-decoration: none; color: #444;}
   100% { opacity: 0; }
 }
 
-.projects{
+.projects-container{
   position: relative;
-  display: flex;
-  flex-direction: column;
+  overflow: hidden;
+
+  height: 100px;
 }
 
+.project-cover{
+  position:relative;
+  flex-direction: column;
+
+  width:100%;
+}
 
 
 /* READ CSS */ 
