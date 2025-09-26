@@ -40,29 +40,28 @@ a{text-decoration: none; color: #444;}
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* MAIN-PAGE CSS */
 .main {
-  margin-top: 100px;
-  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  width: 600px;
-  height: 1000px;
+  position: relative;
+
+  margin-top: 100px;
+  width: 500px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .slideshow-container {
   position: relative;
