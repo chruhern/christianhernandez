@@ -5,12 +5,15 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
+
 <body>
 {% include navbar.html %}
 
-  <div class="main-work">
-    {{ content }} 
+  <div class="main">
     {% include resume.html %}
+    {{ content }} 
+
+    {% include footer.html %}
   </div>
 </body>
 </html>
