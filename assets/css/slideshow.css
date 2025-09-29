@@ -1,11 +1,3 @@
-.main-container{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-
-  margin-top: 100px;
-  width: 600px;
-}
 
 .slideshow-container{
   position: relative;
