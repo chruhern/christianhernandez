@@ -1,4 +1,0 @@
----
-layout: read
-title: Read
----
