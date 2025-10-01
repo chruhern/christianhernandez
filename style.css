@@ -92,16 +92,11 @@ img {    /* generic image properties - should apply well to all image styles */
     font-size: 10px;
 }
 
-.projects-container {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-
-    width: 500px;
-    height: 400px;
+.resume-container{
     border: 2px solid ;
+    width: 800px;
+    height: 700px;
 }
-
 
 /* ------------------------- ELEMENTS ------------------------- */
 
@@ -143,3 +138,4 @@ nav ul li ul li a {
     font-size: 10px;
     font-weight: 100;
 }
+
