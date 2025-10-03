@@ -90,15 +90,6 @@ img {    /* generic image properties - should apply well to all image styles */
 }
 /* ------------------------- ELEMENTS ------------------------- */
 
-ul {
-    list-style-type: none;  /* removes bullet points from unordered list */
-    padding: 0;
-}
-
-nav ul li ul.show {
-    display: block;
-}
-
 .font-10{
     font-size: 1rem;
     font-weight: 100;
@@ -113,10 +104,6 @@ nav ul li ul.show {
     max-width: none;
 }
 
-.hidden-item{
-    display: none;
-}
-
 .block-item{
     display: block;
 }
@@ -125,13 +112,16 @@ nav ul li ul.show {
     text-decoration: none;
 }
 
-nav ul.show{
-    display: block;
-}
 
 h1{
     font-size: 1.5rem;
     line-height: 2rem;
+}
+
+h2{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
 }
 
 .italic{
@@ -160,4 +150,38 @@ h1{
     border: 2px solid;
 }
 
+.flex-item{
+    display: flex;
+}
 
+.fl-row{
+    flex-direction: row;
+}
+
+.mr-8{
+    margin-right: 0.5rem;
+}
+
+.hidden-item{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.fl-column{
+    flex-direction: column;
+}
+
+.basis-32{
+    flex-basis: 8rem;
+}
+
+.w-32{
+    width: 13rem;
+}
+
+.p-0{
+    padding: 0;
+}

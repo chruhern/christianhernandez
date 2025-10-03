@@ -1,28 +1,15 @@
-// Get all dropdown toggles
-const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("dropdown").classList.toggle("show");
+}
 
-dropdownToggles.forEach(toggle => {
-  toggle.addEventListener('click', (e) => {
-    e.preventDefault();
-    const dropdown = toggle.nextElementSibling;
-
-    // Close any open dropdowns first
-    document.querySelectorAll('.dropdown.show').forEach(openDropdown => {
-      if (openDropdown !== dropdown) {
-        openDropdown.classList.remove('show');
-      }
-    });
-
-    // Toggle the clicked dropdown
-    dropdown.classList.toggle('show');
-  });
-});
-
-// Close dropdowns if you click outside
-document.addEventListener('click', (e) => {
-  if (!e.target.closest('li')) {
-    document.querySelectorAll('.dropdown.show').forEach(openDropdown => {
-      openDropdown.classList.remove('show');
-    });
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropdown-toggle')) {
+  var myDropdown = document.getElementById("dropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
   }
-});
+}
