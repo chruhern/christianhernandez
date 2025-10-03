@@ -5,12 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
+    <meta name="title" content="Home page">
+    <meta name="description" content="Christian Hernandez projects">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Open+Sans:wdth,wght@75..100,300..800&display=swap"
-        rel="stylesheet">
 
 </head>
 
@@ -19,34 +16,38 @@
 
         <header>
             <div class="gif-container">
-                <img src="images/snail.gif" alt="snail">
+                <img src="../images/snail.gif" alt="snail">
             </div>
+            <nav>
+                <ul>
+                    <li><a class="font-12" href="../index.html">CHRISTIAN HERNANDEZ</a></li>
+                    <li>
+                        <a class="dropdown-toggle font-12">PROJECTS</a>
+                        <ul class="dropdown hidden-item ">
+                            <li><a class="font-10" href="../projects/118.html">AUTONOMOUS ROBOT</a></li>
+                            <li><a class="font-10" href="../projects/FLARE.html">FLARE</a></li>
+                            <li><a class="font-10" href="../projects/167.html">FLEX SENSOR GLOVE</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="font-12" href="../resume.html">RESUME</a></li>
+                </ul>
+            </nav>
         </header>
 
-        <nav class="sidebar">
-            <ul>
-                <li><a href="index.html">CHRISTIAN HERNANDEZ</a></li>
-                <li>
-                    <a class="dropdown-toggle">PROJECTS</a>
-                    <ul class="dropdown">
-                        <li><a href="projects/118.html">AUTONOMOUS ROBOT</a></li>
-                        <li><a href="projects/FLARE.html">FLARE</a></li>
-                        <li><a href="projects/167.html">FLEX SENSOR GLOVE</a></li>
-                    </ul>
-                </li>
-                <li><a href="resume.html">RESUME</a></li>
-            </ul>
-        </nav>
+        <main class="full">
+            <article class="block-item max-w-none">
 
-        <main>
-            <div class="image-container">
-                <img src="images/ChristianGrad.jpg" alt="ChristianGrad" class="fade-effect">
-                <img src="images/SlugCard.jpg" alt="SlugCard" class="fade-effect">
-            </div>
+                <div class="media-container my-6 border-2px">
+                    <img src="images/ChristianGrad.jpg" alt="ChristianGrad" class="fade-effect">
+                    <img src="images/SlugCard.jpg" alt="SlugCard" class="fade-effect">
+                </div>
 
-            <p> insert bio here </p>
-            <p> insert more of bio</p>
-
+                <p>
+                    Insert Bio
+                    <br>
+                    Continue Bio
+                </p>
+            </article>
         </main>
 
         <footer>
