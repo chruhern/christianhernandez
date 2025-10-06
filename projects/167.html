@@ -19,9 +19,9 @@
             </div>
 
             <nav>
-                <a href="../index.html" class="font-12 mr-8 color-pink">christian hernandez</a>
-                <a href="../projects.html" class="font-12 mr-8 color-pink">projects</a>
-                <a href="../resume.html" class="font-12 mr-8 color-pink">resume</a>
+                <a href="../index.html" class="font-12 mr-8 link-color">christian hernandez</a>
+                <a href="../projects.html" class="font-12 mr-8 link-color">projects</a>
+                <a href="../resume.html" class="font-12 mr-8 link-color">resume</a>
             </nav>
         </header>
 
@@ -30,7 +30,7 @@
             <article class="block-item max-w-none">
                 <header>
                     <h1>Encoder Launch (2024)</h1>
-                    <p class="mt-0 italic font-light">Flex Sensor, 9DOF IMU, PIC32</p>
+                    <p class="mt-0 italic font-light"> Wearable Technology and Embedded Systems</p>
                 </header>
 
                 <div class="media-container my-6">
@@ -42,13 +42,25 @@
                 </div>
 
                 <p>
-                    Encoder Launch is an innovative physics-based "launch-and-destroy" game that combines advanced
+                    Encoder Launch is an innovative physics-based "launch-and-shoot" game that combines advanced
                     sensor technology with interactive gameplay. Players control the shot power and angle of a digital
                     projectile to strategically launch and hit targets. Leveraging components such as the flex sensor
                     fitted to a glove, rotary encoder, IMU, PIC32 OLED display, and speaker, Encoder Launch offers a
                     gaming experience that bridges the gap between physical interaction and digital gameplay.
-                    Features
+                </p>
 
+                <p>
+                    An analog pin on the PIC32 connects to the flex sensors output, reading a variable resistance as the user 
+                    bends its finger, enabling an intuitive mapping of shot power. Each round, a target spawns at a new location,
+                    requiring the user to hit different distances. An IMU attached to the glove, provides the program with gyroscope 
+                    data as the user moves its hand vertically, imitating launch angle. With shot power, roll, and pitch data, we 
+                    were able to use kinematic equations to calculate vertical and horizontal displacement. All movements can be visualized 
+                    on the OLED screen, providing the feedback necessary for a perfect shot.    
+                </p>
+
+                <p>
+                    The code repository can be found <a href="https://github.com/chruhern/encoder-launch.git">here</a>.
+                    <br> Credits: Christian Hernandez, Samuel Si, and Haley Peczon
                 </p>
 
             </article>

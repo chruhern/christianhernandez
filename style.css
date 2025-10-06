@@ -92,10 +92,12 @@ img {    /* generic image properties - should apply well to all image styles */
     height: 25rem;
     position: relative;
 }
+
 /* ------------------------- TEXT  ------------------------- */
 p{
     font-size: 0.8rem;
     font-weight: 300;
+    line-height: 1.5;
 }
     
 a{
@@ -104,7 +106,7 @@ a{
 
 a:hover{
     text-decoration: underline;
-    text-decoration-color: black;
+    
 }
 
 .font-10{
@@ -140,12 +142,18 @@ h2{
     text-decoration: none;
 }
 
-.color-pink{
-    color: #911b6e;
+.link-color{
+    color: #165a9a;
 }
 
 html{
     font-family: Georgia, Times, Times New Roman, serif;
+}
+
+.list{
+    list-style-type:circle;
+    font-size: 0.8rem;
+    font-weight: 300;
 }
 
 /* ------------------------- ELEMENTS  ------------------------- */
